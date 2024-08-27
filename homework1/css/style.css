@@ -1,0 +1,1677 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-image: url("../images/header/bg.png");
+    background-size: cover;
+    height: 982px;
+}
+
+header nav {
+    padding: 20px;
+
+}
+
+header nav .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+header nav .container .logo {
+    width: 189px;
+    height: 83px;
+    padding: 10px 0px 0px 0px;
+    gap: 10px;
+    opacity: 0px;
+
+}
+
+
+header nav .container .links ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    list-style: none;
+}
+
+header nav .container .links ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    display: inline-block;
+    /* Ensure the element is block-level for transform */
+    transition: transform 0.3s ease, color 0.3s ease;
+    /* Separate transition properties */
+}
+
+header nav .container .links ul li a:hover {
+    color: rgba(243, 156, 17, 1);
+    transform: scale(1.1);
+    /* Slightly increase the size */
+}
+
+
+header nav .container .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+header nav .container .user i {
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background-color: gray;
+    color: white;
+
+}
+
+header nav .container .logo .menu i {
+    visibility: collapse;
+}
+
+
+
+/* header .hero {
+    position: relative;
+} */
+
+/* header .hero .container {
+    position: absolute;
+} */
+
+header .hero .container h1 {
+    position: absolute;
+    width: 993px;
+    height: 125px;
+    top: 248px;
+    left: 260px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lobster;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 125px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+header .hero .container {
+    position: relative;
+}
+
+header .hero .container button {
+    position: absolute;
+    top: 750px;
+    left: 50%;
+}
+
+header .hero .container i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    background-color: rgba(243, 156, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+}
+
+
+/* .sections part */
+
+
+
+/* section1 */
+
+main section .section1 {
+    background-color: rgba(255, 244, 216, 1);
+    height: 741px;
+
+
+}
+
+
+main section .section1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+    position: relative;
+}
+
+main section .section1 .container .textarea h1 {
+    width: 197px;
+    height: 50px;
+    top: 186px;
+    left: 69px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lobster;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(13, 16, 21, 1);
+    position: absolute;
+}
+
+main section .section1 .container .textarea p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    width: 554px;
+    height: 194px;
+    top: 269px;
+    left: 69px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(85, 85, 85, 1);
+    position: absolute;
+}
+
+
+main section .section1 .container .textarea button {
+    width: 161px;
+    height: 60px;
+    top: 496px;
+    left: 69px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: rgba(243, 156, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    position: absolute;
+}
+
+
+main section .section1 .container .images {
+    position: absolute;
+    width: 643px;
+    height: 577px;
+    top: 82px;
+    right: 58px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* section2 */
+
+main section .section2 {
+    background-color: rgba(61, 33, 12, 1);
+    height: 605px;
+}
+
+main section .section2 .container {
+    position: relative;
+
+}
+
+
+
+main section .section2 .container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+main section .section2 .container .title h1 {
+    width: 159px;
+    height: 50px;
+    font-family: Lobster;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    color: rgba(255, 244, 216, 1);
+}
+
+
+main section .section2 .container .block {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+main section .section2 .container .block .card {
+    width: 280px;
+}
+
+
+main section .section2 .container .block .card img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+main section .section2 .container .block .card h3 {
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    ;
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    color: rgba(255, 244, 216, 1);
+    margin-bottom: 20px;
+}
+
+main section .section2 .container .block .card p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    color: rgba(255, 244, 216, 1);
+}
+
+
+main section .section3 {
+    background-color: rgba(255, 244, 216, 1);
+    height: 920px;
+}
+
+main section .section3 .container .title {
+    padding: 30px;
+}
+
+main section .section3 .container .title h1 {
+    font-family: Lobster;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    color: rgba(13, 16, 21, 1);
+    margin-bottom: 20px;
+}
+
+main section .section3 .container .btn {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+main section .section3 .container .btn button {
+    width: 191px;
+    height: 60px;
+    top: 496px;
+    left: 69px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: rgba(243, 156, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+main section .section3 .container .block {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+
+
+main section .section3 .container .block .card {
+    width: 444px;
+    height: 625px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+}
+
+
+main section .section3 .container .block .card img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+main section .section3 .container .block .card h3 {
+    font-family: Rubik;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(13, 16, 21, 1);
+    margin-bottom: 20px;
+}
+
+main section .section3 .container .block .card .rating {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+main section .section3 .container .block .card .rating i {
+    color: rgb(255, 153, 0);
+    font-size: 25px;
+
+}
+
+
+main section .section3 .container .block .card .rating span {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(85, 85, 85, 1);
+}
+
+
+main section .section3 .container .block .card p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(85, 85, 85, 1);
+    margin-bottom: 20px;
+}
+
+main section .section3 .container .block .card .shop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+main section .section3 .container .block .card .shop span {
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(13, 16, 21, 1);
+}
+
+
+main section .section3 .container .block .card .shop button {
+    width: 182px;
+    height: 60px;
+    top: 761px;
+    left: 289px;
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    border-radius: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: transparent;
+    border: 1px solid rgba(243, 156, 17, 1);
+    color: rgba(243, 156, 17, 1);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+
+}
+
+/* foooter */
+
+
+footer {
+    background-color: rgba(61, 33, 12, 1);
+    height: 527px;
+    padding: 40px;
+}
+
+
+footer .container .info {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+footer .container .info .social {
+    width: 457px;
+    height: 259px;
+    padding: 20px;
+}
+
+footer .container .info .social .logo {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+
+footer .container .info .social p {
+
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 244, 216, 1);
+    margin-bottom: 20px;
+}
+
+footer .container .info .social .message {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+footer .container .info .social .message i {
+    color: rgba(255, 244, 216, 1);
+    font-size: 40px;
+
+}
+
+
+footer .container .info .contact {
+    width: 457px;
+    height: 259px;
+    padding: 20px;
+}
+
+footer .container .info .contact h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29.63px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 244, 216, 1);
+}
+
+footer .container .info .contact ul {
+    list-style: none;
+}
+
+
+footer .container .info .contact ul li a {
+    display: flex;
+    gap: 20px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 244, 216, 1);
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+footer .container .info .email {
+    padding: 40px;
+}
+
+
+footer .container .info .email h5 {
+    font-family: Rubik;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29.63px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 244, 216, 1);
+    margin-bottom: 20px;
+}
+
+
+footer .container .info .email form input {
+    width: 457px;
+    height: 64px;
+    top: 135px;
+    left: 1005px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+
+    color: rgba(218, 218, 218, 1);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+footer .container .info .email form button {
+    width: 161px;
+    height: 60px;
+    top: 496px;
+    left: 69px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    opacity: 0px;
+    background-color: rgba(243, 156, 17, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer .container .info .email p {
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 23.7px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 244, 216, 1);
+}
+
+
+footer hr {
+    color: rgba(255, 244, 216, 1);
+    margin-top: 90px;
+}
+
+footer .copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer .copy p {
+    margin: 10px;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    letter-spacing: -0.3333333432674408px;
+    text-align: left;
+    color: rgba(255, 244, 216, 1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media section */
+
+@media (max-width: 1120px) {
+
+    .container {
+        max-width: 1120px;
+        margin: 0 auto;
+    }
+
+
+    header {
+        background-image: url("../images/header/bg.png");
+        background-size: cover;
+        height: 834px;
+    }
+
+    header nav {
+        padding: 20px;
+
+    }
+
+    header nav .container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+
+    header nav .container .logo {
+        width: 189px;
+        height: 83px;
+        padding: 10px 0px 0px 0px;
+        gap: 10px;
+        opacity: 0px;
+
+    }
+
+
+    header nav .container .links ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        list-style: none;
+    }
+
+    header nav .container .links ul li a {
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        display: inline-block;
+        transition: transform 0.3s ease, color 0.3s ease;
+
+    }
+
+    header nav .container .links ul li a:hover {
+        color: rgba(243, 156, 17, 1);
+        transform: scale(1.1);
+        /* Slightly increase the size */
+    }
+
+
+    header nav .container .user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+
+    header nav .container .user i {
+        font-size: 30px;
+        height: 60px;
+        width: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: gray;
+        color: white;
+
+
+    }
+
+    /* header .hero {
+    position: relative;
+} */
+
+    header .hero .container h1 {
+        width: 794px;
+        height: 94.1px;
+        top: 199.5px;
+        left: 200px;
+        gap: 0px;
+        opacity: 0px;
+
+        position: absolute;
+        font-family: Lobster;
+        font-size: 80px;
+        font-weight: 400;
+        line-height: 100px;
+        text-align: center;
+
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+
+
+    /* section1 part */
+
+
+
+    main section .section1 {
+        background-color: rgba(255, 244, 216, 1);
+        height: 556px;
+
+
+    }
+
+
+    main section .section1 .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 30px;
+        position: relative;
+    }
+
+    main section .section1 .container .textarea h1 {
+        width: 177px;
+        height: 50px;
+        top: 93px;
+        left: 53px;
+        gap: 0px;
+        opacity: 0px;
+
+
+        font-family: Lobster;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: rgba(13, 16, 21, 1);
+        position: absolute;
+    }
+
+    main section .section1 .container .textarea p {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        width: 517px;
+        height: 137px;
+        top: 176px;
+        left: 53px;
+        gap: 0px;
+        opacity: 0px;
+
+        color: rgba(85, 85, 85, 1);
+        position: absolute;
+    }
+
+
+    main section .section1 .container .textarea button {
+        width: 161px;
+        height: 60px;
+        top: 430px;
+        left: 53px;
+        padding: 20px;
+        gap: 10px;
+        border-radius: 10px;
+        opacity: 0px;
+        background-color: rgba(243, 156, 17, 1);
+        color: rgba(255, 255, 255, 1);
+        border: none;
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+
+        position: absolute;
+    }
+
+
+    main section .section1 .container .images img {
+        position: absolute;
+        width: 400px;
+        height: 437px;
+        left: 239px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+
+    /* .section2
+.section2
+.section2
+.section2
+.section2
+.section2 */
+
+    main section .section2 {
+        background-color: rgba(61, 33, 12, 1);
+        height: 518px;
+    }
+
+    main section .section2 .container {
+        position: relative;
+
+    }
+
+
+
+    main section .section2 .container .title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    main section .section2 .container .title h1 {
+        width: 159px;
+        height: 50px;
+        font-family: Lobster;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        color: rgba(255, 244, 216, 1);
+    }
+
+
+    main section .section2 .container .block {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    main section .section2 .container .block .card {
+        width: 220px;
+    }
+
+
+    main section .section2 .container .block .card img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    main section .section2 .container .block .card h3 {
+        height: 90px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        ;
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+        color: rgba(255, 244, 216, 1);
+        margin-bottom: 5px;
+    }
+
+    main section .section2 .container .block .card p {
+        font-family: Rubik;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+        color: rgba(255, 244, 216, 1);
+    }
+
+    /* section3 */
+    /* section3 */
+    /* section3 */
+    /* section3 */
+    /* section3 */
+    /* section3 */
+    /* section3 */
+    /* section3 */
+
+
+    main section .section3 {
+        background-color: rgba(255, 244, 216, 1);
+        height: 788px;
+    }
+
+    main section .section3 .container .title {
+        padding: 30px;
+    }
+
+    main section .section3 .container .title h1 {
+        font-family: Lobster;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+        color: rgba(13, 16, 21, 1);
+        margin-bottom: 20px;
+    }
+
+    main section .section3 .container .btn {
+        display: flex;
+        justify-content: right;
+        align-items: right;
+    }
+
+    main section .section3 .container .btn button {
+        width: 191px;
+        height: 60px;
+        top: 496px;
+        left: 69px;
+        padding: 20px;
+        gap: 10px;
+        border-radius: 10px;
+        opacity: 0px;
+        background-color: rgba(243, 156, 17, 1);
+        color: rgba(255, 255, 255, 1);
+        border: none;
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+
+
+    main section .section3 .container .block {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+
+
+    main section .section3 .container .block .card {
+        width: 338px;
+        height: 514px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 20px;
+    }
+
+
+    main section .section3 .container .block .card img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        width: 304px;
+        height: 242px;
+
+    }
+
+    main section .section3 .container .block .card h3 {
+        font-family: Rubik;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: rgba(13, 16, 21, 1);
+        margin-bottom: 5px;
+    }
+
+    main section .section3 .container .block .card .rating {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 10px;
+        margin-bottom: 5px;
+    }
+
+    main section .section3 .container .block .card .rating i {
+        color: rgb(255, 153, 0);
+        font-size: 20px;
+
+    }
+
+
+    main section .section3 .container .block .card .rating span {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: rgba(85, 85, 85, 1);
+    }
+
+
+    main section .section3 .container .block .card p {
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: rgba(85, 85, 85, 1);
+        margin-bottom: 20px;
+    }
+
+    main section .section3 .container .block .card .shop {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    main section .section3 .container .block .card .shop span {
+
+        font-family: Rubik;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: rgba(13, 16, 21, 1);
+    }
+
+
+    main section .section3 .container .block .card .shop button {
+        width: 120px;
+        height: 30px;
+        top: 761px;
+        left: 289px;
+        padding: 20px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        border: 1px 0px 0px 0px;
+        opacity: 0px;
+        background: transparent;
+        border: 1px solid rgba(243, 156, 17, 1);
+        color: rgba(243, 156, 17, 1);
+        font-family: Rubik;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+
+    }
+
+}
+
+/* 
+
+
+
+MEdia section for MOBILE MEdia section for MOBILE
+MEdia section for MOBILE MEdia section for MOBILE
+MEdia section for MOBILE MEdia section for MOBILE
+
+
+MEdia section for MOBILE MEdia section for MOBILE
+MEdia section for MOBILE MEdia section for MOBILE
+MEdia section for MOBILE MEdia section for MOBILE
+
+
+MEdia section for MOBILE MEdia section for MOBILE
+MEdia section for MOBILE MEdia section for MOBILE
+MEdia section for MOBILE MEdia section for MOBILE 
+
+
+
+
+
+
+
+
+
+
+
+*/
+@media(max-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    header {
+        background-image: url("../images/header/jeremy-yap-jn-HaGWe4yw-unsplash\ 2.png");
+        background-size: cover;
+        background-position: center;
+        height: 844px;
+    }
+
+    header nav {
+        padding: 0px;
+        margin: 0;
+
+
+    }
+
+    header nav .container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    header nav .container .logo {
+        width: 189px;
+        height: 83px;
+
+    }
+
+    header nav .container .links #mobile {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+
+    header nav .container .logo img {
+        width: 113px;
+        height: 43px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    header nav .container .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    header nav .container .links {
+        visibility: collapse;
+    }
+
+    header nav .container .logo .menu i {
+        font-size: 30px;
+        line-height: 15px;
+        color: white;
+        visibility: visible;
+    }
+
+    header nav .container .user {
+        padding: 10px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        width: 170px;
+        height: 100px;
+        border-radius: 50%;
+
+
+    }
+
+    header nav .container .user i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        font-size: 20px;
+
+    }
+
+    header nav .container .links #desktop {
+        visibility: collapse;
+    }
+
+
+
+    header .hero .container {
+        height: 500px;
+        position: relative;
+    }
+
+    header .hero .container h1 {
+        position: absolute;
+        top: 20px;
+        left: 60px;
+
+        width: 270px;
+        height: 126px;
+        font-family: Lobster;
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 62.5px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    header .hero .container i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        bottom: 100px;
+        left: -10px;
+        gap: 0px;
+        opacity: 0px;
+        border: none;
+        background-color: rgba(243, 156, 17, 1);
+        color: rgba(255, 255, 255, 1);
+        border-radius: 50%;
+    }
+
+
+    main section .section1,
+    main section .section1 .container {
+        position: relative;
+        height: 705px;
+    }
+
+    main section .section1 .container .textarea h1 {
+        font-family: Lobster;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 50px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        color: rgba(13, 16, 21, 1);
+        position: absolute;
+        top: 20px;
+        left: 142px;
+    }
+
+    main section .section1 .container .images img {
+        position: absolute;
+        width: 349px;
+        height: 313px;
+        top: 0px;
+        left: 335px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+
+    main section .section1 .container .textarea p {
+        width: 350px;
+        height: 166px;
+        top: 427px;
+        left: 20px;
+        gap: 0px;
+        opacity: 0px;
+        text-align: center;
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+    }
+
+    main section .section1 .container .textarea button {
+        width: 135px;
+        height: 50px;
+        top: 618px;
+        left: 128px;
+        padding: 15px;
+        gap: 10px;
+        border-radius: 10px;
+        opacity: 0px;
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+
+    }
+
+
+    main section .section2, main section .section2 .container {
+        position: relative;
+        height: 1319px;
+    }
+
+    main section .section2 .container .title h1 {
+        width: 159px;
+        height: 50px;
+        font-family: Lobster;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 50px;
+        color: rgba(255, 244, 216, 1);
+    }
+
+    main section .section2 .container .block {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        /* gap: 60px; */
+    }
+
+    main section .section2 .container .block .card {
+        width: 377px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: -50px;
+        border-bottom: 1px solid rgba(255, 244, 216, 1);
+    }
+
+    main section .section2 .container .block .card img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0px;
+
+    }
+
+    main section .section2 .container .block .card h3 {
+        font-family: Rubik;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+        margin-bottom: 4px;
+        height: auto;
+
+
+    }
+
+    main section .section2 .container .block .card p {
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: center;
+
+    }
+
+    /* section3 part
+    section3 part
+    section3 part
+    section3 part
+    section3 part
+    section3 part */
+
+
+
+    main section .section3,
+    main section .section3 .container {
+        height: 1680px;
+    }
+
+    main section .section3 .container .block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    main section .section3 .container .title {
+        padding: 10px;
+    }
+
+    main section .section3 .container .title h1 {
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    main section .section3 .container .btn {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    main section .section3 .container .btn button {
+        width: 150px;
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+        margin-bottom: 0px;
+
+
+    }
+
+    main section .section3 .container .block .card {
+        width: 350px;
+        height: 480px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 1);
+        padding: 10px;
+    }
+
+    main section .section3 .container .block .card img {
+        width: 314px;
+        height: 249px;
+
+        border-radius: 20px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+
+    main section .section3 .container .block .card .rating i,
+    main section .section3 .container .block .card .rating span {
+        font-size: 15px;
+    }
+
+    main section .section3 .container .block .card .rating {
+        margin-bottom: 5px;
+    }
+
+
+    main section .section3 .container .block .card h3 {
+        font-family: Rubik;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+
+    }
+
+    main section .section3 .container .block .card p {
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    main section .section3 .container .block .card .shop span {
+        font-size: 20px;
+    }
+
+    main section .section3 .container .block .card .shop button {
+        width: 120px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    /* footer section */
+    footer {
+        background-color: rgba(61, 33, 12, 1);
+        height: 836px;
+        padding: 10px;
+    }
+    footer .container {
+        height: 836px;
+    }
+/* 
+    footer .container .info {
+        border: 3px solid black;
+      
+    } */
+
+    footer .container .info {
+
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    /* footer .container .info .social {
+        border: 3px solid black;
+    } */
+
+    footer .container .info .social .logo {
+        margin-bottom: 10px;
+    }
+
+    footer .container .info .social .logo img {
+        width: 173px;
+        height: 65px;
+
+
+        margin-bottom: 10px;
+    }
+
+    footer .container .info .social p {
+        font-family: Rubik;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: -0.3333333432674408px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    footer .container .info .social .message {
+        gap: 5px;
+        margin-bottom: 10px;
+    }
+
+    footer .container .info .social .message i {
+        font-size: 20px;
+
+    }
+
+    footer .container .info .contact {
+        width: 457px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    footer .container .info .contact h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .container .info .contact ul li a {
+        margin-bottom: 15px;
+        font-size: 15px;
+    }
+
+
+    footer .container .info .email {
+        padding: 10px;
+    }
+
+    footer .container .info .email form input {
+        width: 300px;
+        height: 60px;
+        padding: 20px;
+       border: none;
+
+    }
+    footer .container .info .email form button {
+        width: 128px;
+        height: 50px; 
+        font-size: 15px;
+        margin-bottom: 0;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer hr {
+        color: rgba(255, 244, 216, 1);
+        height: 2px;
+        margin-top: 10px;
+    }
+    footer .copy p {
+        margin: 5px;
+        font-size: 15px;
+        color:rgba(255, 244, 216, 1) ;
+    }
+}
